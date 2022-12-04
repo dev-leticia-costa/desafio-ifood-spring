@@ -15,6 +15,8 @@ import java.util.function.Function;
 
 @Repository //não é indispensável, mas é interessante para melhorar o entendimento do código
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
+
+
     @Override
     default void flush() {
 
@@ -165,3 +167,4 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
         return null;
     }
 }
+

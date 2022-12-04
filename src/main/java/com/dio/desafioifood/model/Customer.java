@@ -30,11 +30,11 @@ public class Customer {
     }
 
 
-    public Address getEndereco() {
+    public Address getAddress() {
         return endereco;
     }
 
-    public void setEndereco(Address endereco) {
+    public void setAddress(Address endereco) {
         this.endereco = endereco;
     }
 
